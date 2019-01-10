@@ -65,4 +65,5 @@ fs.readdir("./eventos/", (err, files) => {
 
 client.login(token).catch(err => {
   console.log(`Falha ao fazer login ao bot: ${err}`)
+ client.login(config.token)
 })
